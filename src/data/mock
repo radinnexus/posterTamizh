@@ -1,0 +1,144 @@
+1. 
+FOOTER TEMPLATE CONFIG: {
+    "bgUrl": "https://konvajs.org",
+    "userPhoto": {
+        "x": 11,
+        "y": 409,
+        "scale": 0.5,
+        "url": "blob:https://twm76r.csb.app/5d1db81b-fd17-4170-bf7a-5cfb9e452017"
+    },
+    "nameText": {
+        "x": 156,
+        "y": 520,
+        "text": "ADMIN: NAME AREA",
+        "fontSize": 30,
+        "fill": "#000000"
+    },
+    "desigText": {
+        "x": 183,
+        "y": 552,
+        "text": "ADMIN: DESIGNATION",
+        "fontSize": 19,
+        "fill": "#FFFFFF",
+        "stroke": "#000000",
+        "strokeWidth": 1,
+        "closed": true
+    },
+    "regionText": {
+        "x": 185,
+        "y": 575,
+        "text": "ADMIN: REGION",
+        "fontSize": 17,
+        "fill": "#FE0000"
+    }
+}
+
+2.admk.png
+
+FINAL TEMPLATE CONFIG: {
+    "bgUrl": "blob:https://twm76r.csb.app/05f29235-cbe8-4dcc-8a0b-7a131796ea41",
+    "userPhoto": {
+        "x": -4,
+        "y": 410,
+        "scale": 1,
+        "url": "blob:https://twm76r.csb.app/1d79f101-a7a7-4258-bb02-4e4bc75fe58e"
+    },
+    "nameText": {
+        "x": 109,
+        "y": 559,
+        "text": "அ.அருள்மொழிதேவன்",
+        "fontSize": 21,
+        "fill": "#000000"
+    },
+    "desigText": {
+        "x": -3,
+        "y": 665,
+        "text": "    ",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "stroke": "#000000",
+        "strokeWidth": 1,
+        "closed": false
+    },
+    "regionText": {
+        "x": 111,
+        "y": 584,
+        "text": "கடலூர் மேற்கு மாவட்டம்",
+        "fontSize": 17,
+        "fill": "#FE0000"
+    }
+}
+
+3.admk_dp_logo_1_oval.png
+FINAL TEMPLATE CONFIG: {
+    "bgUrl": "blob:https://twm76r.csb.app/2027f82f-bff0-4fc5-bd38-bcf896f67545",
+    "userPhoto": {
+        "x": 148,
+        "y": 145,
+        "scale": 1.6,
+        "url": "blob:https://twm76r.csb.app/bb30a46d-3b21-412a-8d32-03c5dae689ae"
+    },
+    "nameText": {
+        "x": 121,
+        "y": 495,
+        "text": "அ.அருள்மொழிதேவன்",
+        "fontSize": 20,
+        "fill": "#000000"
+    },
+    "desigText": {
+        "x": 141,
+        "y": 517,
+        "text": "புவனகிரி செயலூர் செயலூர்",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "stroke": "#000000",
+        "strokeWidth": 1,
+        "closed": false
+    },
+    "regionText": {
+        "x": 160,
+        "y": 531,
+        "text": "கடலூர் மேற்கு மாவட்டம்",
+        "fontSize": 12,
+        "fill": "#FE0000"
+    }
+}
+
+4.admk_dp_2
+FINAL TEMPLATE CONFIG: {
+    "bgUrl": "blob:https://twm76r.csb.app/b091827e-c3b1-434d-a978-fede6c87b68c",
+    "userPhoto": {
+        "x": 257.59991455078125,
+        "y": 162.59999084472656,
+        "scale": 1.7,
+        "url": "blob:https://twm76r.csb.app/bb30a46d-3b21-412a-8d32-03c5dae689ae"
+    },
+    "nameText": {
+        "x": 118.60009765625,
+        "y": 487.800048828125,
+        "text": "அ.அருள்மொழிதேவன்",
+        "fontSize": 20,
+        "fill": "#000000"
+    },
+    "desigText": {
+        "x": 128.20013427734375,
+        "y": 512.199951171875,
+        "text": "புவனகிரி செயலூர் செயலூர்",
+        "fontSize": 15,
+        "fill": "#d9d3d3",
+        "stroke": "#000000",
+        "strokeWidth": 1,
+        "closed": false
+    },
+    "regionText": {
+        "x": 157.5999755859375,
+        "y": 530.9999389648438,
+        "text": "கடலூர் மேற்கு மாவட்டம்",
+        "fontSize": 13,
+        "fill": "#ff7a7a"
+    }
+}
+
+5.static
+6.static
+7.static

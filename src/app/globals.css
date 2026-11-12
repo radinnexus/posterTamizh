@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700;900&family=Noto+Sans+Tamil:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f0fdf4;
+  --color-surface: #ffffff;
+  --color-card: #ffffff;
+  --color-border: #bbf7d0;
+  --color-text: #052e16;
+  --color-muted: #4ade80;
+  --color-accent: #16a34a;
+  --color-accent-dark: #15803d;
+  --color-party-red: #dc2626;
+  --color-party-black: #171717;
+  --color-party-green: #16a34a;
+}
+
+@font-face {
+  font-family: 'admkfont';
+  src: url('../asset/senthamil.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --bg: #f0fdf4;
+  --surface: #ffffff;
+  --card: #ffffff;
+  --border: #bbf7d0;
+  --text: #052e16;
+  --muted: #6b7280;
+  --accent: #16a34a;
+  --accent-light: #dcfce7;
+  --party-red: #dc2626;
+  --party-black: #171717;
+  --party-green: #16a34a;
+  --radius: 20px;
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.06);
+  --shadow: 0 10px 25px -5px rgb(0 0 0 / 0.08);
+  --shadow-lg: 0 20px 30px -8px rgb(0 0 0 / 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: 'Noto Sans Tamil', 'Hind Madurai', 'Anek Tamil', 'admkfont', 'Catamaran', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Giant tap targets for mobile */
+  input, select, button {
+    min-height: 52px;
+    font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+}
+
+@layer utilities {
+  .konva-preview-wrapper .konvajs-content {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .konva-preview-wrapper canvas {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+  }
+
+  /* Hide scrollbar for template picker */
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse-green {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.4); }
+    50% { box-shadow: 0 0 0 12px rgba(22, 163, 74, 0); }
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20% { transform: translateX(-8px); }
+    40% { transform: translateX(8px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+  }
+
+  /* Screenshot / save-image prevention */
+  .poster-protected {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+  }
+
+  .poster-protected canvas {
+    pointer-events: none;
+  }
+
+  .poster-protected img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+  }
+}
